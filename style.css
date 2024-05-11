@@ -18,6 +18,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
 }
 
 .navitem{
@@ -25,14 +26,85 @@ header{
     gap: 2rem;
     font-weight: 700;
     font-size: 20px;
+    color: rgb(10, 10, 10);
 
 }
 .herotext{
-    position: relative;
-    bottom: 40rem;
+    position: absolute;
+    top: 12rem;
     left: 25rem;
     color: wheat;
     font-weight: 800;
     font-size: 60px;
     font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.landing{
+    height: 110vh;
+    width: 100%;
+}
+#banner{
+    /* height: 90vh; */
+    /* width: 100%; */
+    
+}
+.logo2{
+    background-color: black;
+    width: 10rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 2rem;
+    display: flex;
+}
+.orange{
+    background-color: orangered;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: auto;
+}
+h5{
+margin: 0.5rem 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+a:hover{
+    color: red;
+    background-color: rgb(119, 116, 116);
+}
+/* Styling for Property Section  BEGINS*/
+
+.property{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+/* Styling for propertyoverview Section  BEGINS*/
+
+.propertyoverview{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(183, 58, 221);
+
+}
+
+/* Styling for Contact Us Section  BEGINS*/
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(121, 226, 34);
+
 }
