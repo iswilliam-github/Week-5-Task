@@ -208,7 +208,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 667px) and (min-width: 400px){
+@media screen and (max-width: 720px) and (min-width: 400px){
     .herotext{
       
         color: wheat;
