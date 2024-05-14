@@ -32,8 +32,8 @@ header{
 }
 .herotext{
     position: absolute;
-    top: 12rem;
-    left: 25rem;
+    top: 25%;
+    left: 35%;
     color: wheat;
     font-weight: 800;
     font-size: 60px;
@@ -103,6 +103,15 @@ a:hover{
 
 
 }
+/* .pho{
+    background-color: orangered;
+    width: 7%;
+    height: 15%;
+    position: absolute;
+    top: 75rem;
+    left: 10rem;
+
+} */
 #f1{
     width: 200px;
     height: 300px;
@@ -110,11 +119,11 @@ a:hover{
     margin-top: 3rem;
 }
 #f2{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: orangered;
     background-size:contain;
-    /* border: solid orangered 1px; */
+    border: solid orangered 1px;
     border-radius: 50%;
     position: absolute;
     top: 75rem;
@@ -196,4 +205,82 @@ a:hover{
     width: 50%;
     display: flex;
     margin: auto;
+}
+
+
+@media screen and (max-width: 667px) and (min-width: 400px){
+    .herotext{
+      
+        color: wheat;
+        font-weight: 400;
+        font-size: 40px;
+       
+    }
+    
+    .landing{
+        height: 100vh;
+    }
+
+    .logo2{
+        visibility: hidden;
+        display: none;
+
+    }
+    #banner{
+        height: 100vh;
+        border-radius: 15px;
+    }
+    header{
+visibility: hidden;
+display: none;
+    }
+    .property{
+   flex-direction: column;
+   height: 100vh;
+   width: 100%;
+   padding: 0;
+   margin-top: 3rem;
+    
+    }
+    .leftimage{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+       
+
+}
+#f1{
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+    margin-left: 3rem;
+    margin-top: 0;
+    /* display: none; */
+
+}
+#f2{
+/* display: none; */
+    top: 170%;
+    left: 5%;
+
+
+
+}
+.centertext{
+margin-top: 5rem;
+}
+
+.container-rightdetails{
+    height: 100vh;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 50%;
+
+}
+.propertyoverview{
+    display: none;
+}
+.contact{
+    display: none;
+}
 }
