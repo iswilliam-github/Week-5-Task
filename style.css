@@ -128,7 +128,7 @@ a:hover{
     position: absolute;
     top: 75rem;
     left: 10rem;
-    /* padding: 1rem; */
+    padding: 0.5px;
 
 }
 #f2 img{
@@ -252,7 +252,7 @@ display: none;
 #f1{
     width: 50%;
     height: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 3rem;
     margin-top: 0;
     /* display: none; */
