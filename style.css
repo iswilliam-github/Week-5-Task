@@ -236,10 +236,12 @@ display: none;
     }
     .property{
    flex-direction: column;
-   height: 100vh;
+   height:fit-content;
    width: 100%;
    padding: 0;
    margin-top: 3rem;
+   align-items: center;
+
     
     }
     .leftimage{
@@ -269,19 +271,27 @@ display: none;
 .centertext{
 margin-top: 5rem;
 }
+.rightdetails{
+    /* padding-bottom: 3rem; */
+
+
+}
 
 .container-rightdetails{
-    height: 100vh;
+    height: fit-content;
     margin-top: 2rem;
     margin-left: 3rem;
-    width: 50%;
     margin-bottom: 2rem;
+    width: 50%;
 
 }
 .propertyoverview{
-    display: none;
+    /* display: none; */
+    /* background-color: aquamarine; */
+    height: fit-content;
 }
 .contact{
-    display: none;
+    /* display: none; */
+    height: fit-content;
 }
 }
