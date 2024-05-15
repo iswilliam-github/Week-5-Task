@@ -208,7 +208,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 667px){
     .herotext{
       
         color: wheat;
@@ -240,7 +240,7 @@ display: none;
    width: 100%;
    padding: 0;
    margin-top: 3rem;
-   align-items: center;
+   /* align-items: center; */
 
     
     }
@@ -262,7 +262,7 @@ display: none;
 }
 #f2{
 /* display: none; */
-    top: 180%;
+    top: 200%;
     left: 5%;
 
 
