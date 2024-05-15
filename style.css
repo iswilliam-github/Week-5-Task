@@ -187,10 +187,82 @@ a:hover{
 /* Styling for propertyoverview Section  BEGINS*/
 
 .propertyoverview{
+    /* display: flex; */
     height: 100vh;
     width: 100%;
     /* background-color: rgb(183, 58, 221); */
 
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    margin: 0 4rem;
+}
+.topleft{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.topright{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+
+}
+.apartment{
+    background-color: orangered;
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.villagallery{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.villadetails{
+    background-color: rgb(17, 17, 17);    
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.pbody{
+    display: flex;
+    /* gap: 2rem; */
+    margin: 5rem 3rem 0;
+    justify-content: space-around;
+
+}
+.pbodyleft{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    color: black;
+    width: 20%;
+    height: fit-content;
+    padding: 3rem 1rem 1rem;
+    margin-left: 4rem;
+    
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+    /* padding-left: 3rem; */
+    text-align: end;
+}
+.pbodycenter{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 /* Styling for Contact Us Section  BEGINS*/
@@ -222,8 +294,8 @@ a:hover{
     }
 
     .logo2{
-        visibility: hidden;
-        display: none;
+        /* visibility: hidden;
+        display: none; */
 
     }
     #banner{
@@ -231,8 +303,15 @@ a:hover{
         border-radius: 15px;
     }
     header{
-visibility: hidden;
-display: none;
+        font-weight: 200;
+        font-size: 12px;
+        height: 10vh;
+    }
+    .navitem{
+       
+        font-weight: 700;
+        font-size: 12px;
+        
     }
     .property{
    flex-direction: column;
@@ -240,7 +319,7 @@ display: none;
    width: 100%;
    padding: 0;
    margin-top: 3rem;
-   /* align-items: center; */
+   align-items: center;
 
     
     }
@@ -253,16 +332,13 @@ display: none;
 }
 #f1{
     width: 50%;
-    height: 100%;
-    /* border: 2px solid red; */
-    margin-left: 3rem;
+    height: 80vh;
+    /* margin-left: 3rem; */
     margin-top: 0;
-    /* display: none; */
 
 }
 #f2{
-/* display: none; */
-    top: 200%;
+    top: 180%;
     left: 5%;
 
 
@@ -272,7 +348,6 @@ display: none;
 margin-top: 5rem;
 }
 .rightdetails{
-    /* padding-bottom: 3rem; */
 
 
 }
@@ -286,9 +361,9 @@ margin-top: 5rem;
 
 }
 .propertyoverview{
-    /* display: none; */
-    /* background-color: aquamarine; */
+
     height: fit-content;
+    background-color: rgb(105, 78, 223);
 }
 .contact{
     /* display: none; */
