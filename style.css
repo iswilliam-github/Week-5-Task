@@ -261,7 +261,17 @@ span{
     text-align: end;
 }
 .pbodycenter{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    
+}
+.pbodyright{
+
+    width: 70%;
+    height: 70vh;
+    text-align: center;
+    align-self: center;
+
+    margin-top: 2rem;
     
 }
 
@@ -363,7 +373,72 @@ margin-top: 5rem;
 .propertyoverview{
 
     height: fit-content;
-    background-color: rgb(105, 78, 223);
+    /* background-color: rgb(105, 78, 223); */
+    flex-direction: column;
+}
+.top{
+flex-direction: column; 
+}
+.topleft{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+
+}
+.topright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    height: 50px;
+    padding: 0 1rem;
+
+}
+.apartment{
+    background-color: orangered;
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.villagallery{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.villadetails{
+
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.pbody{
+ flex-direction: column;
+
+}
+.pbodyleft{
+width: 70%;
+height: 70vh;
+margin: 0;
+align-self: center;
+text-align: justify;
+    
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+    /* padding-left: 3rem; */
+    text-align: end;
+}
+.pbodycenter{
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    align-self: center;
+    margin-top: 2rem;
+    
 }
 .contact{
     /* display: none; */
